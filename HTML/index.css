@@ -1,0 +1,115 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto" , sans-serif;
+    margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+button{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    border: 1px solid rgba(rgb(207, 45, 45), green, blue, alpha);
+    box-shadow: 2px 2px 10px rgba(rgb(0, 0, 0), green, blue, alpha);
+    color: white;
+    background-color: rgb(72, 2, 137);
+
+}
+button:hover{
+    background-color: rgb(72, 2, 137);
+}
+
+.conteiner{
+    
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+.color-acento{color:blueviolet;}
+
+header{
+    background-color: rgb(189, 243, 225);
+}
+header .logo{
+    margin: 0%;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(34, 122, 122);
+    font-size: 1.9em;
+
+
+}
+header.conteiner{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+header a{
+
+    padding:  5px 12px;
+    text-decoration: none 0;
+    font-weight: bold;
+    color: rgb(103, 88, 88);
+
+}
+header a:hover{
+
+    color: rgb(222, 40, 40);
+
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh ;
+    color: rgb(101, 176, 241);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://th.bing.com/th/id/R.9d7d6798ea07cb3141e4f7186cc28344?rik=IKm%2fSQGO8P8SEA&riu=http%3a%2f%2fwww.todohumor.com%2fUserFiles%2fImage%2ffondos%2f2014%2fipad%2f013.jpg&ehk=hp18uNPnhvjE3obG1KzZd6MPsaRC6SAZu726KUjgEmQ%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+#hero h1{color: white;
+}
+
+#soy-aprendis{
+
+}
+
+#soy-aprendis .conteiner{
+
+    text-align:  center center;
+    padding: 200px 12px;
+
+}
+
+
+
+}

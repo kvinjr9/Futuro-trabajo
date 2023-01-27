@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(187, 184, 184);
+    font-family:  'Times New Roman';
+    margin: 0%;
+}
+header{
+    background-color: rgba(35, 35, 230, 0.822);
+    
+}
+ h1{font-size: 45px;}
+ h2{font-size: 30px;}
+ h3{font-size: 20px;}
+ p{font-size: 28px;}
+
+ h1{
+    text-align: center;
+    color: black;
+ }
+ p{
+
+ }
+header .conteiner{
+    display: flex;
+    flex-direction: column;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+header .logo{
+    margin: 0%;
+    padding: 25px, 30px;
+    color: rgb(184, 0, 0);
+    font-weight: bold;
+    font-size: 1.5cm;
+}
+header a{
+    color: rgb(0, 0, 0);
+}
